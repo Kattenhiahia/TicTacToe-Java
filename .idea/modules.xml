@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/TicTacToe-Java.iml" filepath="$PROJECT_DIR$/.idea/TicTacToe-Java.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/se.haggmyr.tictactoe.iml" filepath="$PROJECT_DIR$/se.haggmyr.tictactoe.iml" />
+>>>>>>> 772389b9d6395256c184f6566b32d40f1ac3905a
     </modules>
   </component>
 </project>
