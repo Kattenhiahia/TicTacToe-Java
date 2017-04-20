@@ -98,7 +98,7 @@ public class View extends JFrame implements Observer{
         Field9.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Field9.setText("U clicked on this button");
+                controller.itsSomething();
             }
         });
         MainPanel.add(Field1);
@@ -119,6 +119,7 @@ public class View extends JFrame implements Observer{
 
     @Override
     public void update(Observable o, Object arg) {
-        MainPanel.repaint();
+
+        Field9.setText("Observer updated");
     }
 }
